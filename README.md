@@ -24,6 +24,6 @@ This script does this:
 
 A small and not so complete .txt file will be created within the process, with the specifications of what the bot did. 
 
-To use this you have to download also the PyCryptsy.py file (I added some lines to the one here: https://github.com/salfter/PyCryptsy)
+To use this you have to download also the PyCryptsy.py file (I added some lines to the one here: https://github.com/salfter/PyCryptsy - thank you @salfter for publishing this on GitHub!)
 
 Be careful, the bot may not work or may cause losses of some kind. Do whatever you want with code; I am NOT responsible for how you use this.
