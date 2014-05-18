@@ -3,11 +3,12 @@ This script does this:
 
 - asks the user to insert the Cryptsy Coins to trade (ex: DRK and then BTC -> DRK/BTC market selected)
 - asks the user to insert the Multiplier of the highest Buy Price (if the Multiplier is, for example, 0.9 the Buy Orders will be sent at the highest Buy Price * 0.9)
-- asks the user to insert the Multiplier of the lowest Sell Price (if the Multiplier is, for example, 1.1 the Sell Orders will be sent at the lowest Sell Price * 1.1)
 - asks the user to insert the Multiplier of his available balance (if the Multiplier is, for example, 0.5, and the market is DRK/BTC, the amount traded will be the half of the available BTC balance)
 
 
-- enters a While cycle that stops just on CTRL-C
+- the SellPrice is based on this: x * BuyPrice where x is a multiplier set up from inside the code - now it is 1.01 just as an example, you should choose the x you think is the best one; more info inside the code!
+
+- enters a While cycle that stops just on CTRL-C (well, this should happen, but somehow it does not work perfectly).
 
 	- asks Cryptsy for the current Buy and Sell Prices.
 
